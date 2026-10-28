@@ -1,1 +1,2 @@
-git commit -m "Update Main.py in prathyusha branch"
+print("Hello from Python")
+print("Hello from prathyusha branch")
