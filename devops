@@ -1,0 +1,114 @@
+
+                  Devops
+
+WHAT IS DEVOPS?
+
+     DevOps = Development + Operations.
+
+DevOps is a way of working in which software development teams and IT operations teams collaborate and use automation to build, test, deploy, and maintain applications faster and more reliably.
+- Development (Dev): Developers write code and create applications.
+- Operations (Ops): IT teams deploy, run, and maintain applications.
+- DevOps: Both teams work together to deliver software efficiently.
+
+  DevOps is used to:
+1. Deliver software faster.
+2. Reduce manual work and human errors.
+3. Automate software testing and deployment.
+4. Improve collaboration between teams.
+5. Monitor application performance.
+6. Identify and fix problems quickly.
+7. Improve security and reliability.
+
+    
+   Step 1: Plan
+
+The team decides which features to develop. Tool: Jira.
+
+
+
+Step 2: Write code
+
+Developers write application code and store it in GitHub. Tool: Git.
+
+
+
+Step 3: Build and test
+
+Tools automatically build the application and check for errors. Tools: Maven, Jenkins, JUnit.
+
+
+
+Step 4: Deploy
+
+Docker packages the application, and Kubernetes can manage its containers. The application is deployed to a server or cloud environment.
+
+
+
+Step 5: Monitor
+
+The team monitors application performance and investigates errors. Tools: Prometheus, Grafana.
+
+
+DevOps lifecycle and the tools used at each stage
+
+1. Plan — Jira, Azure Boards
+
+“In the planning stage, we decide the project requirements, tasks, and timelines. Jira and Azure Boards help us manage and track tasks.”
+
+2. Code — Git, GitHub
+
+“Developers write the application code. Git tracks code changes, and GitHub stores the code and supports collaboration.”
+
+3. Build — Maven, Gradle
+
+“The build stage converts source code into a build artifact. Maven and Gradle automate the build process and manage dependencies.”
+
+4. Test — JUnit, Selenium
+
+“In this stage, we test the application to identify bugs. JUnit is used for Java unit testing, and Selenium automates browser testing.”
+
+5. Release — Jenkins, GitHub Actions
+
+“The release stage prepares and validates a software version for delivery. Jenkins and GitHub Actions automate pipeline steps.”
+
+6. Deploy — Docker, Kubernetes
+
+“Deployment makes the application available in the target environment. Docker packages applications into containers, and Kubernetes manages containerized applications.”
+
+7. Operate — Ansible
+
+“The operation stage involves running and maintaining applications and infrastructure. Ansible automates server configuration and management.”
+
+8. Monitor — Grafana
+
+“The monitoring stage helps us track application performance and identify issues. Grafana displays metrics and monitoring data through dashboards.”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
