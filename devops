@@ -24,25 +24,17 @@ DevOps is a way of working in which software development teams and IT operations
 
 The team decides which features to develop. Tool: Jira.
 
-
-
 Step 2: Write code
 
 Developers write application code and store it in GitHub. Tool: Git.
-
-
 
 Step 3: Build and test
 
 Tools automatically build the application and check for errors. Tools: Maven, Jenkins, JUnit.
 
-
-
 Step 4: Deploy
 
 Docker packages the application, and Kubernetes can manage its containers. The application is deployed to a server or cloud environment.
-
-
 
 Step 5: Monitor
 
@@ -86,10 +78,169 @@ DevOps lifecycle and the tools used at each stage
 
 
 
+                                          1. Agile Methodology — Meaning
 
 
+1. Agile
+1. Agile is a software development approach that delivers work in small increments.
+2. It allows teams to adapt to changing requirements.
+3. It encourages continuous customer feedback.
+4. Developers and testers collaborate throughout development.
+5. It focuses on delivering working software frequently.
 
 
+2. Scrum
+1. Scrum is a framework based on Agile principles.
+2. It organizes work into fixed-length Sprints.
+3. It defines three accountabilities: Product Owner, Scrum Master, and Developers.
+4. It uses events such as Sprint Planning, Daily Scrum, Sprint Review, and Sprint Retrospective.
+5. It helps teams inspect progress, deliver value, and improve continuously.
+
+
+3. Sprint
+1. A Sprint is a fixed period of one month or less.
+2. The team works toward a specific Sprint Goal.
+3. Sprint Planning takes place at the beginning.
+4. Developers build and test the selected work during the Sprint.
+5. Sprint Review and Sprint Retrospective occur toward the end.
+
+
+4. Iteration
+1. An iteration is a repeated cycle of development and evaluation.
+2. Work is divided into smaller cycles.
+3. Each cycle helps the team make progress on the product.
+4. Feedback is used to improve subsequent cycles.
+5. In Scrum, a Sprint is a specific type of iteration.
+
+
+5. User Story
+1. A User Story describes a feature from the user's perspective.
+2. It explains who needs the feature.
+3. It states what the user wants.
+4. It explains why the feature is useful.
+5. A common format is: “As a user, I want a feature so that I get a benefit.”
+Example: As an employee, I want to log in securely so that I can access my dashboard.
+
+
+6. Epic
+1. An Epic is a large body of work.
+2. It represents a broad feature or business requirement.
+3. It is divided into smaller User Stories.
+4. The related stories may be completed across multiple Sprints.
+5. It helps organize and track large features.
+Example: An Employee Portal Epic may include login, profile, and leave-management stories.
+
+
+7. Story Point
+1. A Story Point estimates the relative effort and complexity of a User Story.
+2. It helps teams compare the difficulty of different stories.
+3. It can account for complexity, effort, and uncertainty.
+4. Teams may use scales such as 1, 2, 3, 5, and 8.
+5. Story Points are relative estimates, not fixed working hours.
+
+
+8. Acceptance Criteria
+1. Acceptance Criteria define the conditions a User Story must satisfy.
+2. They clarify the expected behavior of a feature.
+3. They help developers understand the requirements.
+4. Testers use them to verify whether the feature works as expected.
+5. They help the team decide whether the story meets its requirements.
+Example: A login feature must accept valid credentials and display an error for invalid credentials.
+
+
+                                      2. Scrum Roles — Responsibilities
+
+
+1. Product Owner (PO)
+1. Maximizes the value of the product.
+2. Defines and communicates the Product Goal.
+3. Creates and clarifies Product Backlog items.
+4. Orders and prioritizes the Product Backlog.
+5. Ensures the Product Backlog is transparent and understood.
+
+
+2. Scrum Master (SM)
+1. Helps the team understand and apply Scrum correctly.
+2. Coaches the team in self-management.
+3. Helps address impediments that affect progress.
+4. Supports effective Scrum events.
+5. Promotes continuous improvement and team effectiveness.
+
+
+3. Developers
+1. Create a plan for achieving the Sprint Goal.
+2. Develop and test product features.
+3. Maintain quality according to the Definition of Done.
+4. Adapt their daily work plan as needed.
+5. Deliver a usable product increment that meets the Definition of Done.
+
+
+4. Stakeholders
+1. Communicate business requirements and user needs.
+2. Provide domain knowledge and relevant information.
+3. Review product outcomes and provide feedback.
+4. Help clarify business expectations.
+5. Share relevant changes and priorities with the Product Owner.
+Note: Stakeholders contribute to Scrum, but the three formal Scrum accountabilities are Product Owner, Scrum Master, and Developers.
+
+
+                                                       3. Scrum Events and Related Terms — Purpose
+1. Sprint Planning
+1. Defines why the upcoming Sprint is valuable.
+2. Establishes the Sprint Goal.
+3. Selects suitable Product Backlog items for the Sprint.
+4. Helps Developers plan how to complete the selected work.
+5. Creates the initial Sprint plan.
+
+
+2. Daily Scrum
+1. It is a 15-minute event for Developers.
+2. It is held every working day of the Sprint.
+3. It helps inspect progress toward the Sprint Goal.
+4. It helps identify obstacles and coordinate work.
+5. It allows Developers to adjust their plan for the next day.
+
+
+3. Sprint Review
+1. It takes place near the end of the Sprint.
+2. The Scrum team and stakeholders inspect the Sprint outcome.
+3. The team discusses the product increment and completed work.
+4. Stakeholders provide feedback and discuss changing requirements.
+5. The team considers what to do next and adapts the Product Backlog as needed.
+
+
+4. Sprint Retrospective
+1. It takes place after the Sprint Review and before the next Sprint Planning.
+2. The team examines how the Sprint went.
+3. It reviews collaboration, processes, tools, and quality.
+4. The team identifies what went well and what needs improvement.
+5. It plans improvements to increase effectiveness in future Sprints.
+
+
+5. Sprint Backlog
+1. It contains the Sprint Goal.
+2. It includes the Product Backlog items selected for the Sprint.
+3. It contains the Developers' plan for delivering the work.
+4. Developers update it as they learn more during the Sprint.
+5. It provides transparency into progress toward the Sprint Goal.
+
+
+6. Sprint Goal
+1. It defines the main objective of the Sprint.
+2. It explains why the Sprint is valuable.
+3. It provides a shared focus for the team.
+4. It guides decisions during the Sprint.
+5. It allows flexibility in the work plan while maintaining the main objective.
+
+
+                                                                      4. DoD — Definition of Done
+
+1. Definition of Done is a shared description of the quality standards an increment must meet to be considered complete.
+2. It establishes a common understanding of what “done” means.
+3. It may include code review, testing, security checks, and documentation, depending on the product.
+4. It ensures completed work meets the agreed quality requirements.
+5. Work that does not meet the Definition of Done cannot be considered part of the completed increment.
+Example: A login feature is considered done when the code is reviewed, required tests pass, acceptance criteria are met, and the team's quality standards are satisfied.
 
 
 
